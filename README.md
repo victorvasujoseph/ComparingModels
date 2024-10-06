@@ -53,15 +53,19 @@ Each classifier was evaluated using accuracy and other metrics such as precision
 ### Detailed Classification Reports
 
 **K-Nearest Neighbors (KNN)**
+
 <img src="result/KNN.png" alt="My Image" width="700"/>
 
 **Logistic Regression**
+
 <img src="result/LogReg.png" alt="My Image" width="700"/>
 
 **Decision Trees**
+
 <img src="result/DecesionT.png" alt="My Image" width="700"/>
 
 **Support Vector Machines (SVM)**
+
 <img src="result/SVM.png" alt="My Image" width="700"/>
 
 
