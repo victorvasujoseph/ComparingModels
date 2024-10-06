@@ -40,61 +40,16 @@ The classifiers were implemented using the **scikit-learn** Python library.
 
 Each classifier was evaluated using accuracy and other metrics such as precision, recall, and F1-score. Below are the detailed results:
 
-### K-Nearest Neighbors (KNN)
-- **Accuracy**: 89.12%
-- **Classification Report**:
-
-            precision    recall  f1-score   support
-
-       0       0.91      0.97      0.94      7952
-       1       0.59      0.33      0.43      1091
-accuracy                           0.89      9043
-macro avg      0.75      0.65      0.68      9043
-weighted avg   0.87      0.89      0.88      9043
-
-
-### Logistic Regression
-- **Accuracy**: 88.80%
-- **Classification Report**:
-
-            precision    recall  f1-score   support
-
-       0       0.90      0.98      0.94      7952
-       1       0.60      0.22      0.32      1091
-      *A                           0.89      9043
-
-
-### Decision Tree
-- **Accuracy**: 87.25%
-- **Classification Report**:
-
-            precision    recall  f1-score   support
-
-       0       0.93      0.93      0.93      7952
-       1       0.47      0.47      0.47      1091
-      *A                           0.87      9043
-
-
-### Support Vector Machine (SVM)
-- **Accuracy**: 89.64%
-- **Classification Report**:
-
-            precision    recall  f1-score   support
-
-       0       0.91      0.98      0.94      7952
-       1       0.67      0.28      0.40      1091
-      *A                           0.90      9043
-
-*A = accuracy
-
 ## Model Performance Comparison
 
 | Model                | Accuracy | Precision (Class 1) | Recall (Class 1) | F1-Score (Class 1) | Precision (Class 0) | Recall (Class 0) | F1-Score (Class 0) | Weighted Avg F1-Score |
 |----------------------|----------|---------------------|------------------|--------------------|---------------------|------------------|--------------------|-----------------------|
-| K-Nearest Neighbors   | 89.12%   | 59%                 | 33%              | 43%                | 91%                 | 97%              | 94%                | 88%                   |
-| Logistic Regression   | 88.80%   | 60%                 | 22%              | 32%                | 90%                 | 98%              | 94%                | 86%                   |
-| Decision Tree         | 87.25%   | 47%                 | 47%              | 47%                | 93%                 | 93%              | 93%                | 87%                   |
-| Support Vector Machine| 89.64%   | 67%                 | 28%              | 40%                | 91%                 | 98%              | 94%                | 88%                   |
+| K-Nearest Neighbors   | 89.12%   | 59%                 | 33%              | 43%                | 91%                 | 97%              | 94%                | 88%                  |
+| Logistic Regression   | 88.80%   | 60%                 | 22%              | 32%                | 90%                 | 98%              | 94%                | 86%                  |
+| Decision Tree         | 87.25%   | 47%                 | 47%              | 47%                | 93%                 | 93%              | 93%                | 87%                  |
+| Support Vector Machine| 89.64%   | 67%                 | 28%              | 40%                | 91%                 | 98%              | 94%                | 88%                  |
+
+
 
 ### Detailed Classification Reports
 
