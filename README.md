@@ -38,21 +38,62 @@ The classifiers were implemented using the **scikit-learn** Python library.
 
 ## Results
 
-Each classifier was evaluated using accuracy and other metrics such as precision, recall, and F1-score. Below are the key results:
+Each classifier was evaluated using accuracy and other metrics such as precision, recall, and F1-score. Below are the detailed results:
 
-| Model                | Accuracy | Precision (Class 1) | Recall (Class 1) | F1-Score (Class 1) |
-|----------------------|----------|---------------------|------------------|--------------------|
-| K-Nearest Neighbors   | 89.12%   | 59%                 | 33%              | 43%                |
-| Logistic Regression   | 88.80%   | 60%                 | 22%              | 32%                |
-| Decision Tree         | 87.30%   | 47%                 | 48%              | 48%                |
-| Support Vector Machine| 89.64%   | 67%                 | 28%              | 40%                |
+### K-Nearest Neighbors (KNN)
+- **Accuracy**: 89.12%
+- **Classification Report**:
 
-### Conclusion
+            precision    recall  f1-score   support
 
-- **SVM** achieved the highest accuracy (89.64%) but struggled with recall for the minority class.
-- **KNN** had a good balance of accuracy (89.12%) and recall for the minority class.
-- **Logistic Regression** performed well in terms of accuracy but had lower recall for class 1.
-- **Decision Tree** had the lowest accuracy but better recall than Logistic Regression.
+       0       0.91      0.97      0.94      7952
+       1       0.59      0.33      0.43      1091
+
+accuracy                           0.89      9043
+
+
+### Logistic Regression
+- **Accuracy**: 88.80%
+- **Classification Report**:
+
+            precision    recall  f1-score   support
+
+       0       0.90      0.98      0.94      7952
+       1       0.60      0.22      0.32      1091
+
+accuracy                           0.89      9043
+
+
+### Decision Tree
+- **Accuracy**: 87.25%
+- **Classification Report**:
+
+            precision    recall  f1-score   support
+
+       0       0.93      0.93      0.93      7952
+       1       0.47      0.47      0.47      1091
+
+accuracy                           0.87      9043
+
+
+### Support Vector Machine (SVM)
+- **Accuracy**: 89.64%
+- **Classification Report**:
+
+            precision    recall  f1-score   support
+
+       0       0.91      0.98      0.94      7952
+       1       0.67      0.28      0.40      1091
+
+accuracy                           0.90      9043
+
+
+## Conclusion
+
+- **SVM** achieved the highest accuracy (89.64%) but had lower recall for the minority class.
+- **KNN** also performed well with an accuracy of 89.12%, though its recall for class 1 was lower.
+- **Logistic Regression** performed similarly in terms of accuracy (88.80%) but struggled more with recall for the minority class.
+- **Decision Tree** had the lowest accuracy (87.25%) but provided a more balanced recall and precision for both classes.
 
 ### Recommendations:
 - Consider tuning hyperparameters for better performance.
@@ -71,3 +112,4 @@ You can install the dependencies using:
 
 ```bash
 pip install -r requirements.txt
+
