@@ -87,6 +87,20 @@ weighted avg   0.87      0.89      0.88      9043
 
 *A = accuracy
 
+## Model Performance Comparison
+
+| Model                | Accuracy | Precision (Class 1) | Recall (Class 1) | F1-Score (Class 1) | Precision (Class 0) | Recall (Class 0) | F1-Score (Class 0) | Weighted Avg F1-Score |
+|----------------------|----------|---------------------|------------------|--------------------|---------------------|------------------|--------------------|-----------------------|
+| K-Nearest Neighbors   | 89.12%   | 59%                 | 33%              | 43%                | 91%                 | 97%              | 94%                | 88%                   |
+| Logistic Regression   | 88.80%   | 60%                 | 22%              | 32%                | 90%                 | 98%              | 94%                | 86%                   |
+| Decision Tree         | 87.25%   | 47%                 | 47%              | 47%                | 93%                 | 93%              | 93%                | 87%                   |
+| Support Vector Machine| 89.64%   | 67%                 | 28%              | 40%                | 91%                 | 98%              | 94%                | 88%                   |
+
+### Detailed Classification Reports
+
+#### K-Nearest Neighbors (KNN)
+
+
 ## Conclusion
 
 - **SVM** achieved the highest accuracy (89.64%) but had lower recall for the minority class.
