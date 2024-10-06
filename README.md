@@ -63,21 +63,4 @@ Each classifier was evaluated using accuracy and other metrics such as precision
 - **Logistic Regression** performed similarly in terms of accuracy (88.80%) but struggled more with recall for the minority class.
 - **Decision Tree** had the lowest accuracy (87.25%) but provided a more balanced recall and precision for both classes.
 
-### Recommendations:
-- Consider tuning hyperparameters for better performance.
-- Address class imbalance using techniques such as oversampling, undersampling, or using class-weighted algorithms.
-
-## Requirements
-
-To run this project, you need the following Python packages:
-
-- `pandas`
-- `scikit-learn`
-- `numpy`
-- `matplotlib` (for visualizations if needed)
-
-You can install the dependencies using:
-
-```bash
-pip install -r requirements.txt
 
