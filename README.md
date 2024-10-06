@@ -52,14 +52,15 @@ Each classifier was evaluated using accuracy and other metrics such as precision
 
 ### Detailed Classification Reports
 
-              precision    recall  f1-score   support
+1. **K-Nearest Neighbors (KNN)**
+2. **Logistic Regression**
+3. **Decision Trees**
+4. **Support Vector Machines (SVM)**
 
-           0       0.91      0.97      0.94      7952
-           1       0.59      0.33      0.43      1091
-
-    accuracy                           0.89      9043
-   macro avg       0.75      0.65      0.68      9043
-weighted avg       0.87      0.89      0.88      9043
+<img src="images/1.png" alt="My Image" width="700"/>
+<img src="images/1.png" alt="My Image" width="700"/>
+<img src="images/1.png" alt="My Image" width="700"/>
+<img src="images/1.png" alt="My Image" width="700"/>
 
 
 #### K-Nearest Neighbors (KNN)
