@@ -38,11 +38,17 @@ The classifiers were implemented using the **scikit-learn** Python library.
 ## Summary of Steps
 
 **Step 1:** The dataset is loaded into a pandas DataFrame.
+
 **Step 2:** Categorical features are encoded into numerical form using LabelEncoder.
+
 **Step 3:** The dataset is split into training and testing sets.
+
 **Step 4:** The features are scaled using StandardScaler to ensure consistency across models.
+
 **Step 5:** Four classifiers (KNN, Logistic Regression, Decision Tree, and SVM) are initialized.
+
 **Step 6:** Each model is trained and evaluated on the test data using accuracy, precision, recall, and F1-score.
+
 **Step 7:** The results are displayed, allowing for easy comparison of model performance.
 
 
