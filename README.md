@@ -87,14 +87,17 @@ Each classifier was evaluated using accuracy and other metrics such as precision
 
 ### Data Visualization
 
-**correlation_heatmap**
+### correlation_heatmap
+
 <img src="result/correlation_heatmap.png" alt="My Image" width="700"/>
+
+### categorical_variables_distribution.png
+
 <img src="result/categorical_variables_distribution.png" alt="My Image" width="700"/>
+
+### continuous_variables_distribution
+
 <img src="result/continuous_variables_distribution.png" alt="My Image" width="700"/>
-
-
-
-
 
 ## Conclusion
 
