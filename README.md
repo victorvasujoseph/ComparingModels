@@ -85,6 +85,16 @@ Each classifier was evaluated using accuracy and other metrics such as precision
 
 <img src="result/SVM.png" alt="My Image" width="700"/>
 
+### Data Visualization
+
+**correlation_heatmap**
+<img src="result/correlation_heatmap.png" alt="My Image" width="700"/>
+<img src="result/categorical_variables_distribution.png" alt="My Image" width="700"/>
+<img src="result/continuous_variables_distribution.png" alt="My Image" width="700"/>
+
+
+
+
 
 ## Conclusion
 
