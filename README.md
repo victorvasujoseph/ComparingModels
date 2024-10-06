@@ -52,15 +52,17 @@ Each classifier was evaluated using accuracy and other metrics such as precision
 
 ### Detailed Classification Reports
 
-1. **K-Nearest Neighbors (KNN)**
-2. **Logistic Regression**
-3. **Decision Trees**
-4. **Support Vector Machines (SVM)**
+**K-Nearest Neighbors (KNN)**
+<img src="images/KNN.png" alt="My Image" width="700"/>
 
-<img src="images/1.png" alt="My Image" width="700"/>
-<img src="images/1.png" alt="My Image" width="700"/>
-<img src="images/1.png" alt="My Image" width="700"/>
-<img src="images/1.png" alt="My Image" width="700"/>
+**Logistic Regression**
+<img src="images/LogReg.png" alt="My Image" width="700"/>
+
+**Decision Trees**
+<img src="images/DecesionT.png" alt="My Image" width="700"/>
+
+**Support Vector Machines (SVM)**
+<img src="images/SVM.png" alt="My Image" width="700"/>
 
 
 #### K-Nearest Neighbors (KNN)
