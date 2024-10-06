@@ -21,8 +21,7 @@ The target variable (`y`) is binary and represents whether the client subscribed
 The project is organized into the following files:
 
 - **bank-full.csv**: The dataset used for training and testing the models.
-- **bank-additional.csv**: An additional dataset with social and economic context features.
-- **notebook.ipynb**: Jupyter notebook containing the implementation of the classification models and the evaluation metrics.
+- **Bank.ipynb**: Jupyter notebook containing the implementation of the classification models and the evaluation metrics.
 - **README.md**: This file, providing an overview of the project and instructions for reproducing the results.
 
 ## Classifiers Used
