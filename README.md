@@ -48,7 +48,7 @@ Each classifier was evaluated using accuracy and other metrics such as precision
 
        0       0.91      0.97      0.94      7952
        1       0.59      0.33      0.43      1091
-accuracy                           0.89      9043
+      *A                           0.89      9043
 
 
 ### Logistic Regression
@@ -70,7 +70,7 @@ accuracy                           0.89      9043
 
        0       0.93      0.93      0.93      7952
        1       0.47      0.47      0.47      1091
-accuracy                           0.87      9043
+      *A                           0.87      9043
 
 
 ### Support Vector Machine (SVM)
@@ -81,8 +81,9 @@ accuracy                           0.87      9043
 
        0       0.91      0.98      0.94      7952
        1       0.67      0.28      0.40      1091
-accuracy                           0.90      9043
+      *A                           0.90      9043
 
+*A = accuracy
 
 ## Conclusion
 
